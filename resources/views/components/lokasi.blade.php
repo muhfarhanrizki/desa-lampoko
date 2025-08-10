@@ -54,7 +54,7 @@
         </div>
 
         <div class="flex items-center gap-4 mb-3">
-            <div class="p-3 bg-white rounded-lg text-emerald700">
+            <div class="p-3 bg-white rounded-lg text-emerald-700">
             <x-heroicon-o-map-pin class="w-7 h-7" />
             </div>
             <div>
