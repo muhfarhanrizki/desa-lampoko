@@ -1,0 +1,1 @@
+<img src="{{ asset('images/logo-barru.png') }}" alt="Logo" class="h-10 w-auto">
