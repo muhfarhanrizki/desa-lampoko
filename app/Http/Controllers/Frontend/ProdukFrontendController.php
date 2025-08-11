@@ -46,7 +46,7 @@ class ProdukFrontendController extends Controller
 
     public function create()
     {
-        return view('frontend.produk.daftar');
+        return view('frontend.produk.create');
     }
 
     public function store(Request $request)

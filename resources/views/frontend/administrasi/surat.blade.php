@@ -38,7 +38,7 @@
         <!-- Informasi Kontak -->
         <div class="max-w-4xl mx-auto px-6 pt-24 text-center font-sans">
         <h2
-            class="text-4xl font-extrabold text-emerald-800 mb-4 tracking-wide flex items-center justify-center gap-3">
+            class="text-4xl font-extrabold text-emerald-800 mb-4 flex items-center justify-center gap-3">
             Informasi Kontak
         </h2>
         <p class="text-gray-600 text-lg mb-14 max-w-xl mx-auto">
@@ -58,11 +58,10 @@
                 Hubungi kami di jam kerja
             </p>
             <a
-                href="tel:+6281234567890"
+                href="https://wa.me/+6285240399565"
                 class="text-emerald-600 font-semibold flex items-center justify-center gap-2 hover:text-emerald-800 transition select-text mt-auto"
             >
-                <x-heroicon-o-phone class="w-5 h-5" />
-                +62 812-3456-7890
+                0852-4039-9565
             </a>
             </div>
 
@@ -78,36 +77,38 @@
                 Kirim email untuk pertanyaan
             </p>
             <a
-                href="mailto:layanan@desakamiri.id"
+                href="mailto:desalampoko.barru@gmail.com"
                 class="text-emerald-600 font-semibold flex items-center justify-center gap-2 hover:text-emerald-800 transition select-text mt-auto"
             >
-                <x-heroicon-o-envelope class="w-5 h-5" />
-                layanan@desalampoko.id
+                desalampoko.barru@gmail.com
             </a>
             </div>
 
             <!-- Alamat -->
-            <div
-            class="bg-gray-100 rounded-3xl p-8 shadow-neumorph flex flex-col transition-transform hover:scale-[1.05] cursor-pointer"
-            >
-            <div class="bg-emerald-100 p-5 rounded-full shadow-inner mb-6 self-center">
-                <x-heroicon-o-map-pin class="w-10 h-10 text-emerald-600" />
-            </div>
-            <h3 class="text-xl font-semibold text-emerald-700 mb-2 text-center">Alamat</h3>
-            <p class="text-gray-700 mb-6 text-center flex-grow flex items-center justify-center">
-                Kunjungi kantor desa
-            </p>
-            <address
-                class="not-italic text-emerald-600 font-semibold flex items-center justify-center gap-2 select-text mt-auto"
-            >
-                <x-heroicon-o-map class="w-5 h-5" />
-                Kantor Desa Kamiri
-            </address>
+            <a
+    href="https://maps.app.goo.gl/Rdc3ykosXRTzfN1x7"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="bg-gray-100 rounded-3xl p-8 shadow-neumorph flex flex-col transition-transform hover:scale-[1.05] cursor-pointer no-underline"
+>
+    <div class="bg-emerald-100 p-5 rounded-full shadow-inner mb-6 self-center">
+        <x-heroicon-o-map-pin class="w-10 h-10 text-emerald-600" />
+    </div>
+    <h3 class="text-xl font-semibold text-emerald-700 mb-2 text-center">Alamat</h3>
+    <p class="text-gray-700 mb-6 text-center flex-grow flex items-center justify-center">
+        Kunjungi kantor desa
+    </p>
+    <address
+        class="not-italic text-emerald-600 font-semibold flex items-center justify-center gap-2 select-text mt-auto"
+    >
+        Kantor Desa Lampoko
+    </address>
+    </a>
             </div>
         </div>
 
         <!-- Jam Pelayanan -->
-            <div class="max-w-4xl mx-auto mt-8 text-center text-gray-700 font-semibold">
+            <div class="max-w-4xl mx-auto pt-12 text-center text-gray-700 font-semibold">
 
             <!-- Baris 1: Icon + Label -->
             <div class="flex items-center justify-center gap-3 mb-2 text-emerald-700 text-xl font-bold">
@@ -119,8 +120,9 @@
             <div class="flex justify-center gap-16 text-gray-800 text-base font-normal">
                 <div>
                 <p class="font-semibold">Senin - Jumat</p>
-                <p>08:00 - 15:00 WITA</p>
+                <p>08:00 - 16:00 WITA</p>
                 </div>
+
                 <div>
                 <p class="font-semibold">Sabtu - Minggu</p>
                 <p>Libur</p>

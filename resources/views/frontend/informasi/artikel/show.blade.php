@@ -36,7 +36,7 @@
             </p>
             
             <article class="prose max-w-none text-gray-700">
-                {!! $artikel->isi !!}
+                {!! nl2br(e($artikel->isi)) !!}
             </article>
         </div>
 
