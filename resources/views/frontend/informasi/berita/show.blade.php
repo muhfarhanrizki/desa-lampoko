@@ -20,13 +20,17 @@
             </div>
 
             <h1 class="text-3xl font-semibold text-gray-800 mb-3">{{ $berita->judul }}</h1>
-            <p class="text-sm text-gray-500 mb-8 italic flex items-center gap-2">
+            <p class="text-sm text-gray-500 mb-2 italic flex items-center gap-2">
                 <x-heroicon-o-calendar class="w-4 h-4 text-emerald-500" />
                 {{ $berita->created_at->translatedFormat('d F Y') }}
             </p>
+                <p class="text-sm text-gray-500 mb-6 flex items-center gap-1 ">
+                <x-heroicon-o-user class="w-4 h-4 text-emerald-500" />
+                Oleh <span class="font-medium text-gray-700">Admin Desa</span>
+            </p>
             
             <article class="prose max-w-none text-gray-700">
-                {!! $berita->isi !!}
+                {!! nl2br(e($berita->isi)) !!}
             </article>
         </div>
 

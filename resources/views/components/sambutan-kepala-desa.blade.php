@@ -38,7 +38,7 @@
         <div class="w-full md:w-1/3 flex justify-center md:justify-start mt-4"
             data-aos="fade-left" data-aos-delay="300">
             <div class="relative group w-64 h-[22rem] sm:w-60 sm:h-[20rem]">
-                <img src="{{ asset('images/kepala-desa.png') }}"
+                <img src="{{ asset('images/kepala-desa.jpeg') }}"
                      alt="Kepala Desa"
                      class="w-full h-full object-cover rounded-3xl shadow-xl border-4 border-white transition-transform duration-300 group-hover:scale-105">
 

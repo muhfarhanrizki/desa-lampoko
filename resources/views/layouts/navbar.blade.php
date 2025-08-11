@@ -26,7 +26,7 @@
                     <li><a href="{{ route('profil.visi-misi') }}" class="block px-4 py-2 hover:bg-white/20 rounded transition hover:text-amber-400">Visi Misi</a></li>
                     <li><a href="{{ route('profil.sejarah') }}" class="block px-4 py-2 hover:bg-white/20 rounded transition hover:text-amber-400">Sejarah Desa</a></li>
                     <li><a href="{{ route('profil.peta') }}" class="block px-4 py-2 hover:bg-white/20 rounded transition hover:text-amber-400">Peta Desa</a></li>
-                    <li><a href="{{ route('struktur.frontend') }}" class="block px-4 py-2 hover:bg-white/20 rounded transition hover:text-amber-400">Struktur Organisasi</a></li>
+                    <li><a href="{{ route('struktur.frontend') }}" class="block px-4 py-2 hover:bg-white/20 rounded transition hover:text-amber-400">Struktur Pemerintahan</a></li>
                     <li><a href="{{ route('profil.potensi') }}" class="block px-4 py-2 hover:bg-white/20 rounded transition hover:text-amber-400">Potensi Wisata</a></li>
                     <li><a href="{{ route('profil.fasilitas') }}" class="block px-4 py-2 hover:bg-white/20 rounded transition hover:text-amber-400">Fasilitas Umum</a></li>
                 </ul>
@@ -93,7 +93,7 @@
                 <a href="{{ route('profil.visi-misi') }}" class="block hover:text-amber-400">Visi Misi</a>
                 <a href="{{ route('profil.sejarah') }}" class="block hover:text-amber-400">Sejarah Desa</a>
                 <a href="{{ route('profil.peta') }}" class="block hover:text-amber-400">Peta Desa</a>
-                <a href="{{ route('struktur.frontend') }}" class="block hover:text-amber-400">Struktur Organisasi</a>
+                <a href="{{ route('struktur.frontend') }}" class="block hover:text-amber-400">Struktur Pemerintahan</a>
                 <a href="{{ route('profil.potensi') }}" class="block hover:text-amber-400">Potensi Wisata</a>
                 <a href="{{ route('profil.fasilitas') }}" class="block hover:text-amber-400">Fasilitas Umum</a>
             </div>

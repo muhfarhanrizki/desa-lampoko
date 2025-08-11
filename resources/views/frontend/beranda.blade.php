@@ -30,7 +30,7 @@
             <!-- Card Template -->
             @foreach ([
                 ['icon' => 'user-group', 'label' => 'Jumlah Penduduk', 'value' => $informasi->jumlah_penduduk],
-                ['icon' => 'home', 'label' => 'Jumlah Keluarga', 'value' => $informasi->jumlah_keluarga],
+                ['icon' => 'home', 'label' => 'Kepala Keluarga', 'value' => $informasi->jumlah_keluarga],
                 ['icon' => 'user', 'label' => 'Laki-laki', 'value' => $informasi->jumlah_laki_laki],
                 ['icon' => 'user', 'label' => 'Perempuan', 'value' => $informasi->jumlah_perempuan],
             ] as $stat)
@@ -54,7 +54,7 @@
         <div class="grid md:grid-cols-2 gap-8 items-center">
             <div class="rounded-xl overflow-hidden">
                 <video controls class="w-full h-auto rounded-xl">
-                    <source src="{{ asset('videos/profile-desa.mp4') }}" type="video/mp4">
+                    <source src="{{ asset('videos/profil-desa.mp4') }}" type="video/mp4">
                     Browser Anda tidak mendukung pemutar video.
                 </video>
             </div>

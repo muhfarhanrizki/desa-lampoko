@@ -14,16 +14,13 @@
         <!-- Sejarah -->
         <div class="bg-white border border-emerald-200 rounded-xl p-6 shadow-sm text-gray-700 leading-relaxed text-lg space-y-4">
             <p>
-                Desa Lampoko berdiri pada awal abad ke-20 sebagai pemukiman kecil yang dihuni oleh para petani dan nelayan. 
-                Kehidupan masyarakat saat itu sangat sederhana, bergantung pada hasil bumi dan laut, dengan gotong royong sebagai landasan utama kehidupan sosial.
+                Desa Lampoko adalah kerajaan dimasa penjajahan Belanda. Pada waktu perang zaman Belanda, raja terdahulu yang ada di Lampoko selalu mengalahkan lawannya. Asal kata dari Lampoko itu berasal dari bahasa daerah Bugis yaitu Napabokongngi yang artinya selalu mengalahkan lawan dari kata “Bokong”.
             </p>
             <p>
-                Seiring berjalannya waktu, Desa Lampoko berkembang pesat. Infrastruktur mulai dibangun, seperti jalan desa, sekolah, dan fasilitas kesehatan, 
-                yang semakin meningkatkan kesejahteraan masyarakat.
+                Gambaran Desa Lampoko merupakan wilayah pemerintahan. Desa Lampoko salah satu dari enam Desa/Kelurahan yang ada di Kecamatan Balusu dan berada ± 15 km dari Ibukota Kabupaten Barru. Luas Desa Lampoko ± 825 Ha yang terdiri dari 3 dimensi yaitu laut, dataran rendah, dan perbukitan. Dari luas wilayah tersebut terdiri dari 5 (lima) dusun yaitu Dusun Lampoko, Dusun Bawasalo, Dusun Labungnge, Dusun Pallae, dan Dusun Bulu Lampoko.
             </p>
             <p>
-                Hingga kini, Desa Lampoko tetap mempertahankan nilai-nilai kearifan lokal dan budaya gotong royong sambil beradaptasi dengan kemajuan zaman, 
-                demi mewujudkan desa yang maju, mandiri, dan sejahtera.
+                Sebelum pemekaran, desa lampoko dalam wilayah kecamatan balusu dan pada waktu itu desa lampoko masuk dalam wilayah desa balusu, dan yang menjabat sebagai Kepala Desa adalah Bapak Andi Palloge Petta Salebba (Lapasu) Tahun pengangkatan 1954.
             </p>
         </div>
     </section>

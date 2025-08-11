@@ -5,11 +5,11 @@
         <div class="flex flex-col md:flex-row items-center gap-6 text-sm">
             <div class="flex items-center gap-2">
                 <x-heroicon-o-phone class="w-5 h-5 text-gray-300" />
-                <span>Telp: <a href="tel:+628123456789" class="hover:text-white transition">0812-3456-789</a></span>
+                <span>Telp: <a href="https://wa.me/+6285240399565" class="hover:text-white transition">0852-4039-9565 (Sekretaris Desa)</a></span>
             </div>
             <div class="flex items-center gap-2">
                 <x-heroicon-o-envelope class="w-5 h-5 text-gray-300" />
-                <span>Email: <a href="mailto:desalampoko@gmail.com" class="hover:text-white transition">desalampoko@gmail.com</a></span>
+                <span>Email: <a href="mailto:desalampoko.barru@gmail.com" class="hover:text-white transition">desalampoko.barru@gmail.com</a></span>
             </div>
         </div>
     </div>

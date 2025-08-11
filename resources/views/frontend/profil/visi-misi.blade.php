@@ -15,7 +15,7 @@
         <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm text-center mb-12">
             <h2 class="text-2xl font-semibold text-emerald-700 mb-3">Visi</h2>
             <p class="text-gray-700 leading-relaxed text-lg">
-                Mewujudkan Desa Lampoko yang maju, mandiri, dan sejahtera berbasis nilai gotong royong dan kearifan lokal.
+                Terwujudnya Masyarakat Desa Lampoko Yang Mandiri, Berdaya Saing, Sejahtera dan Bernafaskan Keagamaan
             </p>
         </div>
 
@@ -24,20 +24,20 @@
             <h2 class="text-2xl font-semibold text-emerald-700 mb-6 text-center">Misi</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-white border border-gray-200 rounded-xl p-5 shadow hover:shadow-lg transition">
-                    <x-heroicon-o-academic-cap class="w-8 h-8 text-emerald-600 mb-3" />
-                    <p class="text-gray-700">Meningkatkan kualitas pendidikan dan kesehatan masyarakat.</p>
+                    <x-heroicon-o-home class="w-8 h-8 text-emerald-600 mb-3" />
+                    <p class="text-gray-700">Meningkatkan kualitas sumber daya manusia dan mempertahankan serta meningkatkan pembangunan infrastruktur desa.</p>
                 </div>
                 <div class="bg-white border border-gray-200 rounded-xl p-5 shadow hover:shadow-lg transition">
                     <x-heroicon-o-briefcase class="w-8 h-8 text-emerald-600 mb-3" />
-                    <p class="text-gray-700">Mendorong pertumbuhan ekonomi melalui UMKM dan pariwisata.</p>
+                    <p class="text-gray-700">Meningkatkan kinerja pemerintahan desa dan pelayanan publik melalui digitalisasi desa dan penguatan kerja sama dengan berbagai pihak.</p>
                 </div>
                 <div class="bg-white border border-gray-200 rounded-xl p-5 shadow hover:shadow-lg transition">
-                    <x-heroicon-o-home class="w-8 h-8 text-emerald-600 mb-3" />
-                    <p class="text-gray-700">Meningkatkan infrastruktur desa secara merata.</p>
+                    <x-heroicon-o-heart class="w-8 h-8 text-emerald-600 mb-3" />
+                    <p class="text-gray-700">Meningkatkan Kesejahteraan Masyarakat Desa.</p>
                 </div>
                 <div class="bg-white border border-gray-200 rounded-xl p-5 shadow hover:shadow-lg transition">
                     <x-heroicon-o-globe-alt class="w-8 h-8 text-emerald-600 mb-3" />
-                    <p class="text-gray-700">Melestarikan lingkungan hidup dan budaya lokal.</p>
+                    <p class="text-gray-700">Meningkatkan kehidupan berbudaya dan beragama.</p>
                 </div>
             </div>
         </div>

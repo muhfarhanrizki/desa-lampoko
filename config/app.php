@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Website-resmi-desa-lampoko'),
+    'name' => env('APP_NAME', 'Desa Lampoko'),
 
     /*
     |--------------------------------------------------------------------------

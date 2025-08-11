@@ -7,7 +7,7 @@
                 Data Umum Desa Lampoko
             </h1>
             <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-                Statistik lengkap Desa Lampoko yang diupdate secara real-time melalui Looker Studio.
+                Statistik lengkap Desa Lampoko yang diupdate secara real-time.
             </p>
             <div class="mt-6 inline-block bg-cyan-700 text-white px-6 py-2 rounded-full font-medium hover:bg-emerald-800 transition cursor-default select-none shadow">
                 Data Terpercaya & Terkini
