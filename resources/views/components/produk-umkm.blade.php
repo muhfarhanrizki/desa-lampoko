@@ -43,7 +43,7 @@
                             {{-- Konten --}}
                             <div class="p-5 flex flex-col flex-grow">
                                 <h3 class="text-lg font-semibold text-gray-800 mb-1">{{ $produk->nama }}</h3>
-                                <p class="text-sm text-gray-600 mb-4 line-clamp-2 flex-grow">
+                                <p class="text-sm text-gray-600 mb-4 line-clamp-3 flex-grow">
                                     {{ Str::limit(strip_tags($produk->deskripsi), 80) }}</p>
 
                                 <div

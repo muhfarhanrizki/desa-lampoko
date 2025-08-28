@@ -50,23 +50,29 @@
 
 <!-- Card Video Profil -->
 <div class="w-full px-4 sm:px-6 md:px-12 -mt-20 mb-12 z-20 relative flex justify-center">
-    <div class="w-full max-w-5xl bg-white/40 backdrop-blur rounded-2xl shadow-xl border border-white/200 p-6">
-        <div class="grid md:grid-cols-2 gap-8 items-center">
-            <div class="rounded-xl overflow-hidden">
-                <video controls class="w-full h-auto rounded-xl">
-                    <source src="{{ asset('videos/profil-desa.mp4') }}" type="video/mp4">
-                    Browser Anda tidak mendukung pemutar video.
-                </video>
-            </div>
-
-            <div class="text-left">
-                <h3 class="text-xl md:text-2xl font-semibold text-emerald-800 mb-4">Profil Desa Lampoko</h3>
-                <p class="text-gray-600 leading-relaxed text-sm md:text-base text-justify">
-                    Desa Lampoko adalah desa yang terletak di Kecamatan Balusu, Kabupaten Barru, dengan penduduk sekitar 3.400 jiwa yang tersebar di lima dusun: Pallae, Bulu Lampoko, Labunge, Bawasalo, dan Lampoko. Dikenal dengan kekayaan alam, budaya, serta semangat gotong royong, desa ini memiliki potensi unggulan di bidang pertanian, pariwisata, dan UMKM lokal.
-                </p>
-            </div>
+  <div class="w-full max-w-5xl bg-white/40 backdrop-blur rounded-2xl shadow-xl border border-white/200 p-6">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      
+        <div class="rounded-xl overflow-hidden" style="aspect-ratio: 16 / 10; max-height: 480px;">
+          <iframe 
+            src="https://www.youtube.com/embed/EFG9E1OU08Y" 
+            title="Profil Desa Lampoko" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen 
+            class="w-full h-full rounded-xl">
+          </iframe>
         </div>
+
+      <div class="text-left">
+        <h3 class="text-xl md:text-2xl font-semibold text-emerald-800 mb-4">Profil Desa Lampoko</h3>
+        <p class="text-gray-600 leading-relaxed text-sm md:text-base text-justify">
+          Desa Lampoko adalah desa yang terletak di Kecamatan Balusu, Kabupaten Barru, dengan penduduk sekitar 3.400 jiwa yang tersebar di lima dusun: Pallae, Bulu Lampoko, Labunge, Bawasalo, dan Lampoko. Dikenal dengan kekayaan alam, budaya, serta semangat gotong royong, desa ini memiliki potensi unggulan di bidang pertanian, pariwisata, dan UMKM lokal.
+        </p>
+      </div>
+
     </div>
+  </div>
 </div>
 
 <x-profil-video />

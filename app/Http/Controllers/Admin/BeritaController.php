@@ -104,7 +104,7 @@ class BeritaController extends Controller
     // Menghapus berita
     public function destroy($slug)
     {
-        $berita = Berita::where('slug', $slug)->firstOrFail();
+        $berita = Berita::where('slug', $slug->firstOrFail());
 
         if ($berita->gambar && file_exists(public_path('uploads/berita/' . $berita->gambar))) {
             unlink(public_path('uploads/berita/' . $berita->gambar));
