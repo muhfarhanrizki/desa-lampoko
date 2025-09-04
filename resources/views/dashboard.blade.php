@@ -32,12 +32,13 @@
                 icon="users" 
                 :url="route('struktur.index')" />
 
+            {{-- Ganti Kontak jadi Pengaduan --}}
             <x-dashboard-card 
-                title="Kontak Desa" 
-                description="Kelola informasi kontak resmi desa."
+                title="Pengaduan Desa" 
+                description="Kelola data pengaduan masyarakat."
                 color="red" 
-                icon="phone" 
-                :url="route('kontak.index')" />
+                icon="exclamation-triangle" 
+                :url="route('pengaduan.index')" />
 
             <x-dashboard-card 
                 title="Persuratan" 

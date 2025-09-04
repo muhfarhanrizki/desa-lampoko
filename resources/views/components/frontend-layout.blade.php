@@ -6,20 +6,20 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Title & Meta SEO -->
-    <title>@yield('title', 'Website Resmi Desa Lampoko - Informasi & Berita Terbaru')</title>
+    <title>@yield('title', 'Website Resmi Desa Lampoko')</title>
     <meta name="description" content="@yield('meta_description', 'Website resmi Desa Lampoko, Kecamatan Balusu, Kabupaten Barru. Informasi berita, kegiatan desa, dan layanan publik terbaru.')">
-    <meta name="keywords" content="Desa Lampoko, Berita Desa, Kegiatan Desa, Profil Desa">
+    <meta name="keywords" content="Desa Lampoko, Lampoko, Berita Desa, Kegiatan Desa, Profil Desa, Barru, Lampoko Barru, Website Lampoko Barru, Desa Lampoko Barru, Website Desa Lampoko, Website Desa, Kabupaten Barru,">
 
     <!-- Open Graph / Social Media -->
     <meta property="og:title" content="@yield('title', 'Website Resmi Desa Lampoko')">
     <meta property="og:description" content="@yield('meta_description', 'Website resmi Desa Lampoko, menyediakan informasi berita dan kegiatan desa.')">
-    <meta property="og:image" content="@yield('og_image', asset('images/logo-barru.svg'))">
+    <meta property="og:image" content="@yield('og_image', asset('images/favicon.svg'))">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta name="twitter:card" content="summary_large_image">
 
+    <link rel="canonical" href="{{ url()->current() }}">
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('public/favicon.ico') }}" type="image/x-icon">
-<link rel="icon" type="image/svg" href="{{ asset('images/logo-barru.svg') }}">
+    <link rel="icon" href="{{ asset('favicon.svg') }}" type="image/svg+xml">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
@@ -31,7 +31,7 @@
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     
     <!-- JS (defer) -->
-    <script src="{{ asset('//build/assets/app-Ca2lgtOw.js') }}" defer></script>
+    <script src="{{ asset('/build/assets/app-Ca2lgtOw.js') }}" defer></script>
 </head>
 
 <body class="bg-white text-gray-900 font-sans antialiased overflow-x-hidden">
@@ -60,6 +60,6 @@
     <script src="{{ asset('js/frontend.js') }}"></script>
 
     <!-- Optional: Button Component -->
-    <x-button :isLoggedIn="Auth::check()" />
+    <x-pengaduan-form/>
 </body>
 </html>

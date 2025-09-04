@@ -45,9 +45,11 @@
 
             {{-- Tanggal --}}
             <div>
-                <label for="tanggal" class="block font-medium text-gray-700 mb-1">Tanggal Pengumuman</label>
-                <input type="date" name="tanggal" id="tanggal" value="{{ old('tanggal', $pengumuman->tanggal->format('Y-m-d')) }}" required
-                    class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            <label for="tanggal" class="block font-medium text-gray-700 mb-1">Tanggal Pengumuman</label>
+            <input type="date" name="tanggal" id="tanggal" 
+            value="{{ old('tanggal', \Carbon\Carbon::parse($pengumuman->tanggal)->format('Y-m-d')) }}" required
+             class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+
             </div>
 
             {{-- Lokasi --}}

@@ -5,6 +5,7 @@
         <div class="absolute inset-0 bg-gradient-to-br from-black/50 to-green-700/70"></div>
     </div>
 
+
     {{-- Konten Hero --}}
     <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6 mt-8">
         <img src="{{ asset('images/logo-barru.png') }}" alt="Logo" class="h-24 w-24 md:h-28 md:w-28 object-contain mb-4 drop-shadow-lg" />

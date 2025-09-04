@@ -1,5 +1,44 @@
 <x-frontend-layout>
 
+@if($pengumuman->count() > 0)
+<!-- Sticky Button Pengumuman -->
+<div x-data="{ open: false, selected: null }" class="fixed bottom-6 left-6 z-50" x-cloak>
+    <button 
+        @click="open = !open"
+        class="bg-amber-500 text-white font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-amber-600 transition hover:scale-105"
+    >
+        📢 Pengumuman
+    </button>
+
+    <div 
+        x-show="open" 
+        x-transition.origin.top.left
+        @click.away="open = false"  
+        class="mt-2 w-80 bg-white rounded-xl shadow-xl border border-gray-200 "
+        style="display: none;"
+    >
+        <ul class="divide-y divide-gray-200 max-h-64 overflow-y-auto">
+            @foreach($pengumuman as $item)
+                <li 
+                    class="px-4 py-3 hover:bg-amber-50 rounded-xl cursor-pointer"
+                    @click="selected = selected === {{ $item->id }} ? null : {{ $item->id }}"
+                >
+                    <p class="text-sm font-medium text-gray-800">{{ $item->judul }}</p>
+                    <p class="text-xs text-gray-400">
+                        {{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('d F Y') }}
+                    </p>
+
+                    <div x-show="selected === {{ $item->id }}" x-transition x-cloak class="mt-2 text-gray-700 text-sm">
+                        <p class="italic text-gray-500">{{ $item->lokasi }}</p>
+                        <p class="mt-1">{{ $item->deskripsi }}</p> <!-- tambahan deskripsi -->
+                    </div>
+                </li>
+            @endforeach
+        </ul>
+    </div>
+</div>
+@endif
+
 <div class="relative h-screen overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0">
@@ -7,6 +46,7 @@
         <div class="absolute inset-0 bg-gradient-to-br from-black/50 to-green-700/70"></div>
     </div>
 
+    
     <!-- Konten Hero -->
     <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4 sm:px-6 pt-8 md:px-8 mt-6">
         <!-- Logo Desa -->
@@ -81,7 +121,6 @@
 <x-produk-umkm :produks="$produks" />
 <x-artikel :artikels="$artikels" />
 <x-galeri-kegiatan :galeris="$galeris" />
-
 <x-lokasi/>
 
 

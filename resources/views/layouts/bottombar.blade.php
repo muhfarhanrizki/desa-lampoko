@@ -38,10 +38,10 @@
         </a>
 
         {{-- Kontak --}}
-        <a href="{{ route('kontak.index') }}"
-           class="flex flex-col items-center transition {{ request()->routeIs('kontak.*') ? 'text-green-600 font-semibold' : 'hover:text-green-600' }}">
-            <x-heroicon-o-phone class="h-6 w-6 mb-0.5" />
-            <span>Kontak</span>
+        <a href="{{ route('pengaduan.index') }}"
+           class="flex flex-col items-center transition {{ request()->routeIs('pengaduan.*') ? 'text-green-600 font-semibold' : 'hover:text-green-600' }}">
+            <x-heroicon-o-exclamation-triangle class="h-6 w-6" />
+            <span>Pengaduan</span>
         </a>
 
         {{-- Persuratan --}}
